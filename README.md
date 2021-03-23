@@ -1,2 +1,2 @@
 # Seattle-Seahawks
-This repo is a exhibition
+## This repo is a exhibition in HTML web building
