@@ -52,3 +52,36 @@ function userSeahawks() {
         }
     }
 } 
+
+function  guessingGame(){
+    
+    let guessingGameYesOrNo = prompt ('Do you want to play a guessing game?');
+
+    while (guessingGameYesOrNo.toLowerCase() == 'yes'){
+        
+        let correctAnswer = Math.floor(Math.random() * 500) + 1;
+        
+        let userGuess = prompt ('Please enter a number 1-500');
+        
+        let numberofGuesses = 11;
+
+        for(let i = 0; i < numberofGuesses; i++){
+            
+            let guessLeft = numberofGuesses - i;
+            
+            if(userGuess < correctAnswer) {
+            
+                userGuess = prompt(guessLeft + ' Guesses left. To Low. Please enter a number 1-500')
+                    } 
+            else if (userGuess > correctAnswer) {
+                userGuess = prompt(guessLeft + ' Guesses left. To High, Please enter a number 1-500');
+                    }
+            if (userGuess == correctAnswer){
+                alert('You got it!');
+                break;
+            }
+        }
+        guessingGameYesOrNo = prompt('Do you want to play a number guessing game?')
+
+    }
+}
