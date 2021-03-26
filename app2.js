@@ -1,3 +1,5 @@
+function footBalldate() {
+
 let now = new Date();
 
 let start = new Date(now.getFullYear(), 0, 0);
@@ -11,6 +13,7 @@ let day = Math.floor(diff / oneDay);
 let footballStart = (228 - day);
 
 document.write(footballStart + ' Days until the first day of Seahawks Pre-Season!');
+}
 
 function fanname(){
 
@@ -44,7 +47,7 @@ function userSeahawks() {
         
         for(let i = 0; i < userAnswerNumber; i++) {
         
-        document.write('<img ' + 'src=' + '"' id="trophy">');
+        document.write('<img src=' + url + ' id="trophy">');
+        }
     }
-}
 } 
