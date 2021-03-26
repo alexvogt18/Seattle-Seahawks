@@ -33,8 +33,6 @@ function securitycheck() {
 }
 
 function userSeahawks() {
-
-    let userSeahawks;
     
     let userAnswer = confirm('Do you want Superbowls?');
 
