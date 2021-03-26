@@ -1,4 +1,4 @@
-function footBalldate() {
+function footBalldate(){
 
 let now = new Date();
 
@@ -13,6 +13,7 @@ let day = Math.floor(diff / oneDay);
 let footballStart = (228 - day);
 
 document.write(footballStart + ' Days until the first day of Seahawks Pre-Season!');
+
 }
 
 function fanname(){
