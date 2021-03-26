@@ -14,12 +14,16 @@ document.write(footballStart + ' Days until the first day of Seahawks Pre-Season
 
 function fanname(){
 
+    let fanname;
+    
     let FanName = prompt('Welcome! What is your name?');
     
     document.write(FanName + ' is the biggest Seahawks fan on this site!');
     }
 
-    function securitycheck() {
+function securitycheck() {
+    
+    let securitycheck;
     
     let SeahawksAlert = prompt('Would you happen to be a Seahawks fan?');
  
@@ -27,3 +31,22 @@ function fanname(){
         alert('Stay Away!')
     }
 }
+
+function userSeahawks() {
+
+    let userSeahawks;
+    
+    let userAnswer = confirm('Do you want Superbowls?');
+
+    let url = 'https://invention.si.edu/sites/default/files/lombardi-trophy-purple_0.jpg'
+
+    if (userAnswer) {
+        
+        let userAnswerNumber = prompt ('How many Superbowls?');
+        
+        for(let i = 0; i < userAnswerNumber; i++) {
+        
+        document.write('<img ' + 'src=' + '"' id="trophy">');
+    }
+}
+} 
