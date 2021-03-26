@@ -45,3 +45,8 @@ footer {
     border: 4px solid;
     font-size: 15pt;
 }
+
+#trophy {
+    width: 100pt;
+    height: 100pt;
+}
